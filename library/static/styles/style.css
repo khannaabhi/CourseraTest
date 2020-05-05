@@ -103,29 +103,6 @@ body {
   width: auto;
 }
 
-.image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.image img {
-  display: block;
-  border-radius: 2px;
-  box-shadow: 1px 1px 1px grey;
-}
-
-section .desc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: italic;
-}
-
 /* end main */
 
 

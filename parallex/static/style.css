@@ -1,0 +1,39 @@
+#cont-1 {
+  background-image: url("luca-bravo.jpg");
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.card-block {
+  background-color: black;
+  color: aliceblue;
+  opacity: 0.8;
+}
+
+
+
+#cont-2 {
+  background-image: url("joshua-coleman.jpg");
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+#cont-3 {
+  background-image: url("quaid-lagan.jpg");
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-size: cover;
+}

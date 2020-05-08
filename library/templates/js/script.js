@@ -12,7 +12,12 @@ function closeNav() {
   document.getElementById("sidebtn").setAttribute('onclick', 'openNav()')
 }
 
-function loadImages() {
+function loadHome() {
+
+  document.getElementById("about").className = "";
+  document.getElementById("home").className = "active";
+
+
   imageNames = ["annie", "annie-spratt", "annie-spratt-joy",
     "bharath", "diego", "jeremy-bishop", "josh-calabrese",
     "killua2", "kurnaz", "laura-vinck", "mona-eendra"];
@@ -56,6 +61,10 @@ function showSlides(n) {
 }
 
 function loadAbout() {
+
+  document.getElementById("home").className = "";
+  document.getElementById("about").className = "active";
+
   about = '<p class="key">About</p> \
   <p class="value">I\'m Abhi, a third-year graduate student from VJTI college pursuing a degree in Electronics. I \
           look at myself as a keen enthusiast in both hardware as well as software. \
